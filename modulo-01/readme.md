@@ -83,6 +83,17 @@ Al finalizar este módulo, los participantes comprenderán qué es la Ciencia de
    - Plataforma en la nube que permite ejecutar notebooks de Python sin configuración local.
    - Ventajas: Colaboración en tiempo real, acceso a GPUs, almacenamiento en la nube.
      <img src="https://github.com/user-attachments/assets/53f5ee0e-c69e-4c78-9bab-a0c48089eeb7" alt="Descripción de la imagen" width="700">
+     
+
+
+     -**Paso a paso**: 
+      1.	Abre Google Colab en https://colab.research.google.com.
+      2.	Crea un nuevo notebook y dale un título.
+      3.	Escribe y ejecuta el siguiente código:
+         
+   ```python
+        	print("Hola, Ciencia de Datos!")
+
 
 2. **Python y sus librerías:**
    - Pandas: Manipulación de datos estructurados.
@@ -100,4 +111,10 @@ Al finalizar este módulo, los participantes comprenderán qué es la Ciencia de
       | 3   | 1300   | Este   |
 
 **Ejercicio práctico:**
-- Abrir Google Colab y cargar un dataset en formato CSV. Explorar el dataset con las funciones `head()` y `info()`.
+1. Carga el dataset anterior en Google Colab:
+    ```python
+   df = pd.read_csv('ventas_mensuales.csv')
+   print(df.head())
+2. Explora el dataset con las funciones info() y describe().
+3.	Crea un gráfico de barras con Matplotlib que muestre las ventas por región.
+
