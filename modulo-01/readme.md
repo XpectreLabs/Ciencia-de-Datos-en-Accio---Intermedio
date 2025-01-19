@@ -371,6 +371,7 @@ Al finalizar este módulo, los participantes comprenderán qué es la Ciencia de
       - Cómo calcularla:
          - Si el número de observaciones es impar, la mediana es el valor central.
          - Si es par, es el promedio de los dos valores centrales.
+      - <img src=" https://www.ionos.mx/digitalguide/fileadmin/DigitalGuide/Screenshots_2021/median-berechnen-1.png" width="700">
      
      ```python
        print("Mediana:", df['Ventas'].median())
@@ -381,25 +382,65 @@ Al finalizar este módulo, los participantes comprenderán qué es la Ciencia de
       - Ejemplo:
          - Si las ventas diarias son: [1200, 1500, 1200, 1700], la moda es 1200 porque aparece con mayor
            frecuencia.
+      - <img src="https://mundoestudiante.com/wp-content/uploads/2021/12/la-moda-en-matematicas.png" width="700">
         
      ```python
        print("Moda:", df['Ventas'].mode()[0])
+     
    - <img src="https://github.com/user-attachments/assets/57efa55b-ab80-40a3-830d-b97a9e78f17d" width="700">
    
 2. **Medidas de dispersión:**
-   - Rango: La diferencia entre el valor máximo y el valor mínimo en un conjunto de datos.
+   - Las medidas de dispersión permiten entender qué tan dispersos o concentrados están los datos respecto a su tendencia central. Son fundamentales para
+     evaluar la variabilidad en un conjunto de datos.
+   
+      - **Rango:**
+         - Es la diferencia entre el valor máximo y el valor mínimo en un conjunto de datos.
+         - Uso: Da una idea rápida de la extensión de los datos.
+         - Ejemplo:
+            - Si las ventas mensuales de un negocio son [200, 300, 450, 500], el rango es:
+            - 500 − 200 = 300
+         - Ventajas: Fácil de calcular y comprender.
+         - Limitaciones: No muestra información sobre cómo están distribuidos los valores entre los extremos.
+   
+        ```python
+        #Calcular rango usando pandas 
+        import pandas as pd
+        print("Rango:", df['Ventas'].max() - df['Ventas'].min())
 
-     ```python
-     print("Rango:", df['Ventas'].max() - df['Ventas'].min())
-   - Varianza: Una medida de la dispersión que calcula la media de los cuadrados de las diferencias entre los valores y la media del conjunto.
+        # Calcular rango usando NumPy
+         import numpy as np
+         print("Rango:", np.max(df['Ventas']) - np.min(df['Ventas']))
 
-     ```python
-       print("Varianza:", df['Ventas'].var())
-   - Desviación estándar: La raíz cuadrada de la varianza, que representa la dispersión promedio de los datos en relación a su media.
+        
+      - **Varianza:**
+         - Definición: Mide cómo se dispersan los datos en relación a la media, calculando el promedio de las diferencias al cuadrado entre cada dato y la
+           media.
+         - Interpretación: Una varianza alta indica datos muy dispersos, mientras que una baja sugiere datos más cercanos a la media.
+   
+        ```python
+        #Calcular varianza usando pandas 
+        import pandas as pd
+        print("Varianza:", df['Ventas'].var())
 
-     ```python
-       print("Desviación estándar:", df['Ventas'].std())
-   - <img src="https://bookdown.org/dietrichson/metodos-cuantitativos/metodos-cuantitativos_files/figure-html/box-plot-with-explanation-1.png" width="700">
+        # Calcular varianza usando NumPy
+         import numpy as np
+         print("Varianza:", np.var(df['Ventas'], ddof=0))
+
+        
+      - **Desviación estándar:**
+         - Definición: Es la raíz cuadrada de la varianza, lo que facilita su interpretación al estar en las mismas unidades que los datos originales.
+         - Uso: Permite medir cuánto se desvían los datos en promedio respecto a la media.
+   
+        ```python
+         #Calcular desviación estándar usando pandas 
+         import pandas as pd
+         print("Desviación estándar:", df['Ventas'].std())
+
+        # Calcular desviación estándar usando NumPy
+         import numpy as np
+         print("Desviación estándar:", np.std(df['Ventas'], ddof=0)) 
+        
+      - <img src="https://bookdown.org/dietrichson/metodos-cuantitativos/metodos-cuantitativos_files/figure-html/box-plot-with-explanation-1.png" width="700">
 
 📚**Ejercicio práctico:**
 - Crear una lista de números y calcular la media, mediana y desviación estándar usando Numpy.
@@ -408,18 +449,40 @@ Al finalizar este módulo, los participantes comprenderán qué es la Ciencia de
 
 #### **Tema 2.2: Introducción a Probabilidad**
 
-1. **Definición de probabilidad:**
-   - La probabilidad es una medida que indica la frecuencia con la que se espera que ocurra un evento en un número infinito de ensayos.
-   - Se define como el cociente entre el número de casos favorables y el número total de casos posibles.
-   - Ejemplo: Lanzamiento de un dado:
-   - El dado tiene 6 caras numeradas (casos posibles).
-   - La probabilidad de que salga un número par en un solo lanzamiento es el número de casos favorables (3 caras: 2, 4, 6) dividido entre el total de casos posibles (6 caras).
+1. **Definición de Probabilidad**
+   La probabilidad es una medida que cuantifica la frecuencia con la que se espera que ocurra un evento en un número infinito de ensayos.  
+   - **Fórmula general:**  
+     Probabilidad = (Casos Favorables) / (Total de Casos Posibles)
    
-2. **Distribuciones comunes:**
-   - Uniforme: Cada resultado tiene la misma probabilidad.
-   - <img src="https://www.lifeder.com/wp-content/uploads/2020/11/distribucion-uniforme-continua.jpg" width="700">
-   - Normal: Distribución en forma de campana.
-   - <img src="https://alianza.bunam.unam.mx/wp-content/uploads/2024/02/Figura-2.-Tipificacion-de-una-curva-normal-por-su-media-y-desviacion-estandar.png" width="700">
+   - **Ejemplo práctico:**  
+     **Lanzamiento de un dado:**  
+     - Un dado tiene **6 caras numeradas** del 1 al 6 (total de casos posibles).  
+     - La probabilidad de que salga un número **par** en un solo lanzamiento:  
+       - **Casos favorables:** 3 (números pares: 2, 4, 6).  
+       - **Total de casos posibles:** 6.  
+       - **Resultado:**  
+         Probabilidad = 3 / 6 = 0.5 (o 50%)
+
+2. **Distribuciones Comunes**
+
+   - **Distribución Uniforme**
+      - En esta distribución, **cada resultado tiene la misma probabilidad** de ocurrir.  
+      - **Ejemplo:** Al lanzar un dado equilibrado, la probabilidad de que salga cualquier número del 1 al 6 es igual: 1/6.  
+      - **Representación gráfica:**  
+        <img src="https://www.lifeder.com/wp-content/uploads/2020/11/distribucion-uniforme-continua.jpg" width="700">  
+
+   -**Distribución Normal**
+      - También conocida como la **curva de campana**.  
+      - Es simétrica y se centra en la media del conjunto de datos.  
+      - Es utilizada para modelar fenómenos como alturas, pesos, y puntuaciones en exámenes estandarizados.  
+      - **Características principales:**  
+        - **Media:** Punto central de la distribución.  
+        - **Desviación estándar:** Representa la dispersión de los datos.  
+        - El **68%** de los datos están dentro de una desviación estándar de la media, el **95%** dentro de dos, y el **99.7%** dentro de tres.  
+      - **Representación gráfica:**  
+        <img src="https://alianza.bunam.unam.mx/wp-content/uploads/2024/02/Figura-2.-Tipificacion-de-una-curva-normal-por-su-media-y-desviacion-estandar.png" width="700">  
+
+
    
 📚**Ejercicio práctico:**
 - Generar datos con una distribución uniforme y graficar un histograma.
@@ -428,13 +491,31 @@ Al finalizar este módulo, los participantes comprenderán qué es la Ciencia de
 
 #### **Tema 2.3: Representación Gráfica de Datos**
 
-1. **Tipos de gráficos:**
-   - Histogramas: Para distribuciones de datos.
-   - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Histogram_example.svg/1200px-Histogram_example.svg.png" width="700">
-   - Diagramas de barras: Para datos categóricos.
-   - <img src="https://www.jmp.com/es_mx/statistics-knowledge-portal/exploratory-data-analysis/bar-chart/_jcr_content/par/styledcontainer_2069/par/image_1203777138.img.png/1594745267192.png" width="700">
-   - Gráficos de dispersión: Para relaciones entre dos variables.
-   - <img src="https://static.wixstatic.com/media/d7b433_8b364cba373247b78b4ea3579026a60e~mv2.png/v1/fill/w_528,h_352,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d7b433_8b364cba373247b78b4ea3579026a60e~mv2.png" width="700">
+**1. Tipos de Gráficos**
+
+   - **Histogramas:**  
+     Los histogramas son gráficos utilizados para mostrar la distribución de un conjunto de datos continuos.  
+     - Se agrupan los datos en intervalos o "bins", y la altura de cada barra representa la frecuencia de datos dentro de ese intervalo.  
+     - Ideal para identificar patrones como la simetría, sesgo, o la presencia de valores atípicos en los datos.  
+     - **Ejemplo de uso:** Analizar la distribución de edades en una población.  
+     - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Histogram_example.svg/1200px-Histogram_example.svg.png" width="700">
+   
+   - **Diagramas de barras:**  
+     Estos gráficos se utilizan para comparar diferentes categorías de datos.  
+     - Cada barra representa una categoría y su altura refleja el valor asociado a ella.  
+     - Es útil para datos categóricos o discretos como encuestas, resultados de elecciones o ventas por región.  
+     - **Diferencia clave con histogramas:** En los diagramas de barras, las barras suelen estar separadas porque representan categorías distintas y no intervalos continuos.  
+     - **Ejemplo de uso:** Mostrar ventas por producto en un mes.  
+     - <img src="https://www.jmp.com/es_mx/statistics-knowledge-portal/exploratory-data-analysis/bar-chart/_jcr_content/par/styledcontainer_2069/par/image_1203777138.img.png/1594745267192.png" width="700">
+   
+   - **Gráficos de dispersión:**  
+     Los gráficos de dispersión muestran la relación entre dos variables numéricas.  
+     - Cada punto en el gráfico representa un par de valores (x, y).  
+     - Son útiles para identificar correlaciones, patrones y tendencias en los datos.  
+     - **Ejemplo de uso:** Evaluar la relación entre las horas de estudio y las calificaciones obtenidas por estudiantes.  
+     - **Adicional:** Se pueden añadir líneas de tendencia para modelar relaciones lineales o no lineales entre las variables.  
+     - <img src="https://static.wixstatic.com/media/d7b433_8b364cba373247b78b4ea3579026a60e~mv2.png/v1/fill/w_528,h_352,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d7b433_8b364cba373247b78b4ea3579026a60e~mv2.png" width="700">
+
    
 2. **Ejemplo práctico:**
    - Gráfico de barras con ventas por región.
