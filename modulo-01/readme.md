@@ -78,9 +78,8 @@ Al finalizar este módulo, los participantes comprenderán qué es la Ciencia de
          - Mantener la curiosidad: Buscar oportunidades en los datos y estar dispuesto a aprender constantemente sobre nuevos enfoques y tendencias.
 
 
-**Ejemplo práctico:**
-- Caso simplificado: Analizar datos de ventas mensuales para identificar tendencias y realizar predicciones.
-- [Ejemplo](modulo-01/Ejemplo_practico1.ipynb)
+[**`Ejemplo práctico 1`**](ejemplo_practico1/Ejemplo_practico1.ipynb)
+- Analizar datos de ventas mensuales para identificar tendencias y realizar predicciones.
 
 **Ejercicio para los alumnos:**
 - Identificar tres problemas en su área laboral o personal donde podría aplicarse Ciencia de Datos.
@@ -342,13 +341,7 @@ Al finalizar este módulo, los participantes comprenderán qué es la Ciencia de
       | 2   | 1200   | Sur    |
       | 3   | 1300   | Este   |
 
-**Ejercicio práctico:**
-1. Carga el dataset anterior en Google Colab:
-    ```python
-   df = pd.read_csv('ventas_mensuales.csv')
-   print(df.head())
-2. Explora el dataset con las funciones info() y describe().
-3.	Crea un gráfico de barras con Matplotlib que muestre las ventas por región.
+4. [**`Ejercicio práctico 1`**](ejercicio_practico1/Ejercicio_practico1.ipynb)
 
 ## **Tema 2: Fundamentos de Estadística y Probabilidad Aplicada**
 
@@ -442,7 +435,7 @@ Al finalizar este módulo, los participantes comprenderán qué es la Ciencia de
         
       - <img src="https://bookdown.org/dietrichson/metodos-cuantitativos/metodos-cuantitativos_files/figure-html/box-plot-with-explanation-1.png" width="700">
 
-📚**Ejercicio práctico:**
+[**`Ejercicio práctico 2`**](ejercicio_practico2/Ejercicio_practico2.ipynb)
 - Crear una lista de números y calcular la media, mediana y desviación estándar usando Numpy.
 
 ---
@@ -483,9 +476,8 @@ Al finalizar este módulo, los participantes comprenderán qué es la Ciencia de
         <img src="https://alianza.bunam.unam.mx/wp-content/uploads/2024/02/Figura-2.-Tipificacion-de-una-curva-normal-por-su-media-y-desviacion-estandar.png" width="700">  
 
 
-   
-📚**Ejercicio práctico:**
-- Generar datos con una distribución uniforme y graficar un histograma.
+[**`Ejercicio práctico 3`**](ejercicio_practico3/Ejercicio_practico3.ipynb)
+- Graficar un histograma.
 
 ---
 
@@ -517,10 +509,11 @@ Al finalizar este módulo, los participantes comprenderán qué es la Ciencia de
      - <img src="https://static.wixstatic.com/media/d7b433_8b364cba373247b78b4ea3579026a60e~mv2.png/v1/fill/w_528,h_352,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d7b433_8b364cba373247b78b4ea3579026a60e~mv2.png" width="700">
 
    
-2. **Ejemplo práctico:**
-   - Gráfico de barras con ventas por región.
-   - Gráfico de dispersión con horas de estudio vs calificaciones.
+2. [**`Ejemplo práctico 2`**](ejemplo_practico2/Ejemplo_practico2.ipynb)
+     - Gráfico de barras con ventas por región.
+3. [**`Ejemplo práctico 3`**](ejemplo_practico3/Ejemplo_practico3.ipynb)
+     - Gráfico de dispersión con horas de estudio vs calificaciones.
 
-**Ejercicio para los alumnos:**
-- Crear un gráfico de barras con sus propios datos usando Matplotlib.
-- Crear un gráfico de dispersión que relacione dos variables numéricas.
+[**`Ejercicio Unificado`**](ejercicio_unificado/Ejercicio_Unificado_Modulo_1_Alumno.ipynb)
+
+
