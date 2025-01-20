@@ -257,6 +257,9 @@ Explorar un DataFrame es fundamental para entender la estructura y el contenido 
      | 75%   | 3.0       | 250.0     |
      | max   | 3.0       | 300.0     |
 
+### **Ejemplo de exploración y creación de un DataFrame**
+- [**`Ejercicio 1.1`**](ejercicio1.1/Ejercicio1_1.ipynb)
+
 ---
 
 ## Tema 2.2: Selección y Filtrado de Datos
@@ -501,6 +504,11 @@ Un diagrama de flujo básico del filtrado sería:
 3. Visualizar o almacenar el resultado filtrado.
 
 
+### **Ejemplo de selección y filtrado de datos**
+- [**`Ejercicio 1.2`**](ejercicio1.2/Ejercicio1_2.ipynb)
+
+### **Ejercicio**
+- [**`Ejercicio 1.3`**](ejercicio1.3/Ejercicio1_3.ipynb)
 ---
 
 ### 3. Modificación de datos:
@@ -728,9 +736,6 @@ La detección de valores nulos es una tarea clave para identificar datos faltant
     plt.title('Mapa de valores nulos')
     plt.show()
     ```
-
-
-
 ---
 
 ### 2. Estrategias para manejar valores nulos:
@@ -803,6 +808,10 @@ El manejo de valores nulos es esencial para preparar los datos antes del anális
   - Ideal para conjuntos de datos pequeños o cuando se asume que los valores faltantes son aleatorios.
 - **Imputación avanzada**:
   - Útil para grandes conjuntos de datos donde los valores nulos no son aleatorios y se pueden estimar con precisión.
+
+
+### **Ejemplo de identificación y manejo de valores nulos**
+- [**`Ejercicio 2.1`**](ejercicio2.1/Ejercicio2_1.ipynb)
 
 ---
 
@@ -972,3 +981,18 @@ Cuando se identifican datos atípicos en un conjunto de datos, es importante con
 ---
 
 Ambas estrategias, **eliminación** y **transformación**, tienen sus aplicaciones dependiendo del contexto de los datos y los objetivos del análisis. Es importante seleccionar la opción que mejor se ajuste al objetivo del estudio y al tipo de datos con los que se trabaja.
+
+
+### **Ejemplo de manejo de valores atípicos**
+- [**`Ejercicio 2.2`**](ejercicio2.2/Ejercicio2_2.ipynb)
+
+
+### **Ejercicio de limpieza de un dataset público**
+- [**`Ejercicio 2.3`**](ejercicio2.3/Ejercicio2_3.ipynb)
+
+
+### **Ejercicio unificado del módulo 2**
+- [**`Ejercicio unificado`**](ejercicio_unificado/Ejercicio_Unificado_Modulo_2_Alumno.ipynb)
+
+
+
