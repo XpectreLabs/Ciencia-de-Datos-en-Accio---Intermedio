@@ -1,6 +1,4 @@
-# Ciencia-de-Datos-en-Accion---Intermedio
-
-# Curso de Introducción a la Ciencia de Datos con Python  
+# Ciencia-de-Datos-en-Acción---Intermedio
 
 ¡Bienvenido/a! Este curso está diseñado para introducirte al fascinante mundo de la Ciencia de Datos, cubriendo desde los fundamentos hasta la implementación de modelos de Machine Learning. A lo largo de las 25 horas del curso, aprenderás a manipular datos, realizar análisis exploratorios y comunicar tus hallazgos de manera efectiva.  
 
