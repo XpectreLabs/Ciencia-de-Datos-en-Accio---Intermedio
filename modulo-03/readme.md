@@ -156,30 +156,17 @@ Este entendimiento profundo de los tipos de datos es crucial para aplicar los an
 
 ---
 
-#### 4. Ejercicio Demostrativo (Explicado Paso a Paso)
+#### 4. Ejemplo 1.1
+-[**`Ejemplo 1.1`**](ejercicio1.1/Ejercicio1_1_modulo3.ipynb)
 
-**Objetivo:** Calcular la media, mediana y moda, y crear un histograma sencillo de una lista de números que representen, por ejemplo, las ventas diarias de una tienda durante 10 días.
+#### 5. Ejemplo 1.2
+-[**`Ejemplo 1.2`**](ejercicio1.2/Ejercicio1_2_modulo3.ipynb)
 
-- **Datos de ejemplo:** `[10, 12, 12, 8, 14, 13, 10, 9, 15, 12]`
-- **Pasos:**
-  1. Suma los valores y divídelos entre la cantidad de días para encontrar la media.
-  2. Ordénalos de menor a mayor para encontrar la mediana.
-  3. Cuenta cuántas veces aparece cada número para hallar la moda.
-  4. Crea un histograma que muestre cómo se reparten los valores.
-- **Resultado:** Podrás responder a preguntas como:
-  - "¿Cuántas ventas se hacen en promedio al día?"
-  - "¿Cuál fue el día con más ventas?"
+#### 6. Ejemplo 1.3
+-[**`Ejemplo 1.3`**](ejercicio1.3/Ejercicio1_3_modulo3.ipynb)
 
-#### 5. Ejercicio para los alumnos
-
-**Instrucción:** Carga un dataset sencillo (por ejemplo, datos de ventas de una panadería).
-
-**Preguntas:**
-
-- ¿Cuál es la venta promedio?
-- ¿Hay valores atípicos (días con ventas extraordinariamente altas o bajas)?
-
-Puedes usar un cuaderno de Python (notebook) y `pandas` para importar tus datos y luego usar `.mean()`, `.median()`, `.mode()` y `.hist()` para visualizar.
+#### 7. Ejercicio 1.4 (Alumnos)
+-[**`Ejercicio 1.4`**](ejercicio1.4/Ejercicio_1_4_modulo3.ipynb)
 
 ---
 
@@ -279,6 +266,18 @@ Puedes usar un cuaderno de Python (notebook) y `pandas` para importar tus datos 
     plt.boxplot(data)
     plt.title("Boxplot de Ejemplo")
     plt.show()
+
+#### 4. Ejemplo 2.1
+-[**`Ejemplo 2.1`**](ejercicio2.1/Ejercicio2_1_modulo3.ipynb)
+
+#### 5. Ejemplo 2.2
+-[**`Ejemplo 2.2`**](ejercicio2.2/Ejercicio2_2_modulo3.ipynb)
+
+#### 6. Ejemplo 2.3
+-[**`Ejemplo 2.3`**](ejercicio2.3/Ejercicio2_3_modulo3.ipynb)
+
+#### 7. Ejercicio 2.4 (Alumnos)
+-[**`Ejercicio 2.4`**](ejercicio2.4/Ejercicio2_4_modulo3.ipynb)
 
 ---
 
@@ -424,5 +423,15 @@ A veces, nuestros datos son más complicados o muy grandes. Puede que tengamos c
     - Permite organizar los datos de manera más amigable para la comparación, resaltando las relaciones entre categorías.
     - Es ideal para trabajar con tablas cruzadas, facilitando el análisis comparativo de múltiples dimensiones.
 
+#### 3. Ejemplo 3.1
+-[**`Ejemplo 3.1`**](ejercicio3.1/Ejercicio3_1_modulo3.ipynb)
 
+#### 4. Ejemplo 3.2
+-[**`Ejemplo 3.2`**](ejercicio3.2/Ejercicio3_2_modulo3.ipynb)
+
+#### 5. Ejemplo 3.3
+-[**`Ejemplo 3.3`**](ejercicio3.3/Ejercicio3_3_modulo3.ipynb)
+
+#### 6. Ejercicio 3.4 (Alumnos)
+-[**`Ejercicio 3.4`**](ejercicio3.4/Ejercicio3_4_modulo3.ipynb)
 
