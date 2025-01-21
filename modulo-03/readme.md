@@ -435,3 +435,6 @@ A veces, nuestros datos son más complicados o muy grandes. Puede que tengamos c
 #### 6. Ejercicio 3.4 (Alumnos)
 -[**`Ejercicio 3.4`**](ejercicio3.4/Ejercicio3_4_modulo3.ipynb)
 
+#### Ejercicio Unificado (Alumnos)
+-[**`Ejercicio Unificado`**](ejercicio_unificado/Ejercicio_Unificado_Alumno.ipynb)
+
