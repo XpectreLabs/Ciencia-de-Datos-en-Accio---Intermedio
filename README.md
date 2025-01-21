@@ -14,7 +14,7 @@ Al finalizar este curso, serás capaz de:
 ## Módulos del curso  
 - [**`Módulo 1: Fundamentos de Ciencia de Datos y Python`**](modulo-01/readme.md)
 - [**`Módulo 2: Limpieza y transformación de datos`**](modulo-02/readme.md)
-- **Módulo 3:** Análisis Exploratorio de Datos (EDA).  
+- [**`Módulo 3: Análisis Exploratorio de Datos (EDA)`**](modulo-03/readme.md)
 - **Módulo 4:** Fundamentos de Machine Learning.  
 - **Módulo 5:** Feature Engineering y optimización de modelos.  
 - **Módulo 6:** Comunicación efectiva de resultados.  
