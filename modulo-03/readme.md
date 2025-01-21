@@ -12,7 +12,6 @@ Al finalizar este módulo:
 - Podrás usar gráficos y estadísticas para contar la historia que esconden tus datos.
 - Podrás hacer preguntas más inteligentes sobre tu información y comunicar esos descubrimientos a otras personas.
 
-Este módulo está dividido en dos partes principales (Hora 1 y Hora 2), para que puedas ir aprendiendo poco a poco y practicando cada paso.
 
 ---
 
