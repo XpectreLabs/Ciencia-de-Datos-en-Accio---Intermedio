@@ -282,12 +282,10 @@ Al finalizar este módulo, los participantes comprenderán los conceptos clave d
   
 1. **Seleccionar** un nuevo dato o punto de interés.
 2. **Calcular** la distancia entre este nuevo punto y todos los puntos en el conjunto de entrenamiento. Las distancias se miden comúnmente utilizando:
-   - **Distancia Euclidiana**: \[
-     \text{dist} = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
-     \]
-   - **Distancia Manhattan**: \[
-     \text{dist} = |x_2 - x_1| + |y_2 - y_1|
-     \]
+   - **Distancia Euclidiana**:
+   - <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Distance_Formula.svg" alt="Descripción de la imagen" width="500">
+   - **Distancia Manhattan**:
+   - <img src="https://medidassimdist.wordpress.com/wp-content/uploads/2019/04/image-11.png" alt="Descripción de la imagen" width="500">
 3. **Seleccionar** los `k` vecinos más cercanos en función de la distancia calculada.
 4. **Asignar** la clase basada en el modo (mayoría) de las etiquetas de estos `k` vecinos.
    
@@ -491,10 +489,10 @@ En problemas de regresión, las métricas evalúan qué tan cerca están las pre
 ---
 
 #### Ejemplo 
-  --[**`Ejemplo 4.6`**](ejemplo4.6/Ejemplo4_6.ipynb)
+  --[**`Ejemplo 4.6`**](ejemplo4.6/ejemplo4_6.ipynb)
   
 #### Ejercicio 4.3 (Alumnos)
-  -[**`Ejercicio 4.3`**](ejercicio4.3/Ejercicio4_3.ipynb)
+  -[**`Ejercicio 4.3`**](ejercicio4.3/ejercicio4_3.ipynb)
 
 #### Ejercicio Unificado
   -[**`Ejercicio Unificado`**](Ejercicio_Unificado_Modulo_4_Alumno.ipynb)
