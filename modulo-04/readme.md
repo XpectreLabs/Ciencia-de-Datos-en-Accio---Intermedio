@@ -103,8 +103,8 @@ Al finalizar este módulo, los participantes comprenderán los conceptos clave d
 #### Diagrama del proceso de Machine Learning:
 - <img src="https://rchavarria.github.io/notes/assets/images/2018/machine-learning-process.png" alt="Descripción de la imagen" width="700">
 
-#### Ejemplo 4
-  -[**`Ejemplo 4`**](ejercicio1.1/Ejercicio1_1_modulo3.ipynb)
+#### Ejemplo
+  -[**`Ejemplo 4.1`**](ejemplo4_1/Ejemplo4_1.ipynb)
 
 #### Ejercicio para alumnos 
 - Clasificar diferentes casos de uso de Machine Learning como supervisados o no supervisados.
@@ -223,7 +223,7 @@ Al finalizar este módulo, los participantes comprenderán los conceptos clave d
   - **Ejemplo**: Se detiene el entrenamiento cuando la pérdida en el conjunto de validación no mejora durante varias épocas consecutivas.
 
 #### Ejemplo 
-   -[**`Ejemplo 4.1`**](ejercicio1.1/Ejercicio1_1_modulo3.ipynb)
+   -[**`Ejemplo 4.2`**](ejemplo4.2/Ejemplo4_2.ipynb)
    
 ---
 
@@ -261,10 +261,10 @@ Al finalizar este módulo, los participantes comprenderán los conceptos clave d
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Linear_regression.svg/1200px-Linear_regression.svg.png" alt="Descripción de la imagen" width="500">
 
 #### Ejemplo 
-  -[**`Ejemplo 4.3`**](ejercicio1.1/Ejercicio1_1_modulo3.ipynb)
+  -[**`Ejemplo 4.3`**](ejemplo4.3/Ejemplo4_3.ipynb)
 
 #### Ejercicio 4.1 (Alumnos)
- -[**`Ejercicio 4.1`**](ejercicio1.1/Ejercicio1_1_modulo3.ipynb)
+ -[**`Ejercicio 4.1`**](ejercicio4.1/Ejercicio4_1.ipynb)
 
 ---
 
@@ -304,10 +304,10 @@ Al finalizar este módulo, los participantes comprenderán los conceptos clave d
 - <img src="https://db0dce98.rocketcdn.me/es/files/2020/11/Illu-2-KNN-1024x492.jpg" alt="Descripción de la imagen" width="500">
 
 #### Ejemplo 
-  -[**`Ejemplo 4.4`**](ejercicio1.1/Ejercicio1_1_modulo3.ipynb)
+  -[**`Ejemplo 4.4`**](ejemplo4.4/Ejemplo4_4.ipynb)
 
 #### Ejercicio 4.2 (Alumnos)
-  -[**`Ejemplo 4.2`**](ejercicio1.1/Ejercicio1_1_modulo3.ipynb)
+  --[**`Ejercicio 4.2`**](ejemplo4.2/Ejemplo4_2.ipynb)
 
 ---
 
@@ -369,7 +369,7 @@ Al finalizar este módulo, los participantes comprenderán los conceptos clave d
 - <img src="https://blog.thedigitalgroup.com/assets/uploads/k-means3.jpg" alt="Descripción de la imagen" width="500">
 
 #### Ejemplo 
-  -[**`Ejemplo 4.5`**](ejercicio1.1/Ejercicio1_1_modulo3.ipynb)
+  --[**`Ejemplo 4.5`**](ejemplo4.5/Ejemplo4_5.ipynb)
 
 ---
 
@@ -491,7 +491,13 @@ En problemas de regresión, las métricas evalúan qué tan cerca están las pre
 ---
 
 #### Ejemplo 
-  -[**`Ejemplo 4.6`**](ejercicio1.1/Ejercicio1_1_modulo3.ipynb)
+  --[**`Ejemplo 4.6`**](ejemplo4.6/Ejemplo4_6.ipynb)
   
 #### Ejercicio 4.3 (Alumnos)
-  -[**`Ejercicio 4.3`**](ejercicio1.1/Ejercicio1_1_modulo3.ipynb)
+  -[**`Ejercicio 4.3`**](ejercicio4.3/Ejercicio4_3.ipynb)
+
+#### Ejercicio Unificado
+  -[**`Ejercicio Unificado`**](Ejercicio_Unificado_Modulo_4_Alumno.ipynb)
+
+#### Ejercicio Final
+  -[**`Ejercicio Final`**](Ejercicio_Final_Modelo_Machine_Learning_Student.ipynb)
