@@ -149,10 +149,10 @@ df['es_festivo'] = df['fecha'].apply(lambda x: x in lista_festivos)
 ```
 
 #### Ejemplo 5.1
--[**`Ejemplo 5.1`**](ejemplo5.1/Ejemplo5_1.ipynb)
+-[**`Ejemplo 5.1`**](Ejemplo5_1.ipynb)
 
 #### Ejercicio 5.1
--[**`Ejercicio Feature Engineering`**](ejercicio5.1/Ejercicio5_1.ipynb)
+-[**`Ejercicio Feature Engineering`**](Ejercicio5_1.ipynb)
 
 ---
 
