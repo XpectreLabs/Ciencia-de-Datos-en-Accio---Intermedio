@@ -310,10 +310,10 @@ plt.show()
 ```
 
 #### Ejemplo 5.2
--[**`Ejemplo 5.2`**](ejemplo5.2/Ejemplo5_2.ipynb)
+-[**`Ejemplo 5.2`**](Ejemplo5_2.ipynb)
 
 #### Ejercicio 5.2
--[**`Ejercicio Selección de Características y Reducción de Dimensionalidad`**](ejercicio5.2/Ejercicio5_2.ipynb)
+-[**`Ejercicio Selección de Características y Reducción de Dimensionalidad`**](Ejercicio5_2.ipynb)
 
 ---
 
@@ -408,10 +408,10 @@ Los **algoritmos evolutivos** son técnicas inspiradas en la evolución biológi
 - Buena capacidad para evitar quedar atrapado en mínimos locales.
 
 #### Ejemplo 5.3
--[**`Ejemplo 5.3`**](ejemplo5.3/Ejemplo5_3.ipynb)
+-[**`Ejemplo 5.3`**](Ejemplo5_3.ipynb)
 
 #### Ejercicio 5.3
--[**`Ejercicio Optimización de Hiperparámetros con Random Forest`**](ejercicio5.3/Ejercicio5_3.ipynb)
+-[**`Ejercicio Optimización de Hiperparámetros con Random Forest`**](Ejercicio5_3.ipynb)
 
 ---
 
@@ -464,10 +464,10 @@ plt.show()
 ```
 
 #### Ejemplo 5.4
--[**`Ejemplo 5.4`**](ejemplo5.4/Ejemplo5_4.ipynb)
+-[**`Ejemplo 5.4`**](Ejemplo5_4.ipynb)
 
 #### Ejercicio 5.4
--[**`Ejercicio Evaluación y Comparación de Modelos`**](ejercicio5.4/Ejercicio5_4.ipynb)
+-[**`Ejercicio Evaluación y Comparación de Modelos`**](Ejercicio5_4.ipynb)
 
 #### Actividad Final
--[**`Actividad Final`**](actividad_final/Actividad_Final5.ipynb)
+-[**`Actividad Final`**](Actividad_Final5.ipynb)
