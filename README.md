@@ -16,7 +16,7 @@ Al finalizar este curso, serás capaz de:
 - [**`Módulo 2: Limpieza y transformación de datos`**](modulo-02/readme.md)
 - [**`Módulo 3: Análisis Exploratorio de Datos (EDA)`**](modulo-03/readme.md)
 - [**`Módulo 4: Fundamentos de Machine Learning`**](modulo-04/readme.md)
-- **Módulo 5:** Feature Engineering y optimización de modelos.  
+- [**`Módulo 5: Feature Engineering y optimización de modelos`**](modulo-05/readme.md)
 - **Módulo 6:** Comunicación efectiva de resultados.  
 - **Módulo 7:** Proyecto final integrador.  
 
